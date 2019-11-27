@@ -5,6 +5,10 @@ Hello,
   - On refreshing or Click the button below the Quote author you will get a new quote.
   
   - Probably i can develop my own API someday that returns the random Quote but in this demo, I have used https://api.quotable.io/random API.
+  - You can get Qoute Like
+  >" Life is what happens while you are making other plans. "
+  >Author: John Lennon
+
 
 ```
  getNewQuote = () => {
