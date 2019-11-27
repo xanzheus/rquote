@@ -1,4 +1,4 @@
-# roankcreole.github.io
+# Get New Quote On Refresh
 - This is the Small example of the API fetch request to the Random Quote API. https://api.quotable.io/random
 Hello,
   - I have developed a small application for the purpose to get new random Quote.
