@@ -18,7 +18,7 @@ Hello,
 		success: function(result) { 
                    $('.qoute').text('" '+result.content+' "');
                    $('.author-name').text(result.author);
-			    }	    	    
+		}	    	    
 	}); 
 }
 ```
