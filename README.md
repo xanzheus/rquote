@@ -6,13 +6,13 @@ Hello,
   
   Probablly i can develop my own api some day that return the random Quote but in this demo i have used https://api.quotable.io/random api.
   
-  `getNewQuote = () => {
-	$.ajax({
-		url: "https://api.quotable.io/random",               
-		success: function(result) { 
-                   $('.qoute').text('" '+result.content+' "');
-                   $('.author-name').text(result.author);
+  `getNewQuote = () => {`
+	`$.ajax({`
+		`url: "https://api.quotable.io/random",               `
+		`success: function(result) { `
+                 `  $('.qoute').text('" '+result.content+' "');`
+                   `$('.author-name').text(result.author);`
 			    }	    	    
-	}); 
-}
+	`}); `
+`}`
   `
