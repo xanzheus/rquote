@@ -10,7 +10,7 @@ Hello,
   >Author: John Lennon
 
 
-```
+```javascript
  getNewQuote = () => {
 	$.ajax({
 		url: "https://api.quotable.io/random",               
