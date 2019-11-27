@@ -1,10 +1,10 @@
 # roankcreole.github.io
-This is the Small example of the Api fetch request to the Random Quote API. https://api.quotable.io/random
+This is the Small example of the API fetch request to the Random Quote API. https://api.quotable.io/random
 Hello,
-  i have developed the small application for the purpose to get new rendom Quote.
-  On refresh or Click the button below the Quote author you will get new quote.
+  I have developed a small application for the purpose to get new random Quote.
+  On refreshing or Click the button below the Quote author you will get a new quote.
   
-  Probablly i can develop my own api some day that return the random Quote but in this demo i have used https://api.quotable.io/random api.
+  Probably i can develop my own API someday that returns the random Quote but in this demo, I have used https://api.quotable.io/random API.
 
 ```
  getNewQuote = () => {
