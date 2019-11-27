@@ -8,8 +8,12 @@ Hello,
   - You can get Qoute Like
   >" Life is what happens while you are making other plans. "
   >Author: John Lennon
+  
+  
 
 ##### You can Find This Demo Link Here: https://vanpariyar.github.io/get-new-quote
+
+
 
 ```javascript
  getNewQuote = () => {
