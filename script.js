@@ -15,7 +15,8 @@ getNewQuote = () => {
 	if(flag == 0){
 		$.ajax({
 			url: "https://vanpariyar.github.io/get-new-quote/rendomQuote.json",               
-			success: function(result) { 
+			success: function(result) {
+					flag == 1; 
 					const quotes = result;
 					const quoteNumber = getRandomIntInclusive(0,103);
 					$('.qoute').text(result[quoteNumber].quote);
