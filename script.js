@@ -10,7 +10,8 @@ getNewQuote = () => {
 		url: "https://vanpariyar.github.io/get-new-quote/rendomQuote.json",               
 		success: function(result) { 
                    $('.qoute').text('" '+result.content+' "');
-                   $('.author-name').text(result.author);
+				   $('.author-name').text(result.author);
+				   console.log(result);
 			    }	    	    
 	}); 
 }
