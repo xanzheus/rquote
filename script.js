@@ -7,7 +7,7 @@ jQuery(document).ready( () => {
 });
 getNewQuote = () => {
 	$.ajax({
-		url: "https://api.quotable.io/random",               
+		url: "https://vanpariyar.github.io/get-new-quote/rendomQuote.json",               
 		success: function(result) { 
                    $('.qoute').text('" '+result.content+' "');
                    $('.author-name').text(result.author);
