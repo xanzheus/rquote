@@ -1,5 +1,6 @@
 var $ = jQuery;
 var flag = 0;
+var quotes;
 jQuery(document).ready( () => {
  getNewQuote();
  $('.get-new-quote').on('click',() => {
@@ -16,8 +17,8 @@ getNewQuote = () => {
 		$.ajax({
 			url: "https://vanpariyar.github.io/get-new-quote/rendomQuote.json",               
 			success: function(result) {
-					flag == 1; 
-					const quotes = result;
+					flag = 1; 
+					quotes = result;
 					const quoteNumber = getRandomIntInclusive(0,103);
 					$('.qoute').text(result[quoteNumber].quote);
 					$('.author-name').text(`"${result[quoteNumber].author}"`);
