@@ -17,19 +17,17 @@ getNewQuote = () => {
 		$.ajax({
 			url: "https://raw.githubusercontent.com/vanpariyar/get-new-quote/master/rendomQuote.json",               
 			success: function(result) {
-					flag = 1; 
-					quotes = JSON.parse(result);
-					const quoteNumber = getRandomIntInclusive(0,(quotes.length) - 1);
-					$('.qoute').text(quotes[quoteNumber].quote);
-					$('.author-name').text(`"${quotes[quoteNumber].author}"`);
-					console.log(result);
-					}	    	    
+				flag = 1; 
+				quotes = JSON.parse(result);
+				const quoteNumber = getRandomIntInclusive(0,(quotes.length) - 1);
+				$('.qoute').text(quotes[quoteNumber].quote);
+				$('.author-name').text(`"${quotes[quoteNumber].author}"`);
+			}	    	    
 		}); 
 	}else{
 		const quoteNumber = getRandomIntInclusive(0,(quotes.length) - 1);
 		$('.qoute').text(quotes[quoteNumber].quote);
 		$('.author-name').text(`"${quotes[quoteNumber].author}"`);
-		console.log(quotes)
 	}
 	
 }
