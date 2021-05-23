@@ -29,19 +29,21 @@
 	}
 	if(flag == 0){
 		$.ajax({
-			url: "https://vanpariyar.github.io/get-new-quote/rendomQuote.json",               
+			url: "https://raw.githubusercontent.com/vanpariyar/get-new-quote/master/rendomQuote.json",               
 			success: function(result) {
 					flag = 1; 
-					quotes = result;
-					const quoteNumber = getRandomIntInclusive(0,103);
-					$('.qoute').text(result[quoteNumber].quote);
-					$('.author-name').text(`"${result[quoteNumber].author}"`);
+					quotes = JSON.parse(result);
+					const quoteNumber = getRandomIntInclusive(0,(quotes.length) - 1);
+					$('.qoute').text(quotes[quoteNumber].quote);
+					$('.author-name').text(`"${quotes[quoteNumber].author}"`);
+					console.log(result);
 					}	    	    
 		}); 
 	}else{
-		const quoteNumber = getRandomIntInclusive(0,103);
+		const quoteNumber = getRandomIntInclusive(0,(quotes.length) - 1);
 		$('.qoute').text(quotes[quoteNumber].quote);
 		$('.author-name').text(`"${quotes[quoteNumber].author}"`);
+		console.log(quotes)
 	}
 	
 }
