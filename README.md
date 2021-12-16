@@ -1,13 +1,13 @@
 # Get New Quote On Refresh
-- This is the Small example of the API fetch request to the Random Quote API. https://vanpariyar.github.io/get-new-quote/rendomQuote.json
-- ##### You can Find This Demo Link Here: https://vanpariyar.github.io/get-new-quote
+- This is the Small example of the API fetch request to the Random Quote API. https://xanzheus.github.io/randomquote/rendomQuote.json
+- ##### You can Find This Demo Link Here: https://xanzheus.github.io/randomquote
 
     Hello,
   - I have developed a small application for the purpose to get new random Quote.
   - On refreshing or Click the button below the Quote author you will get a new quote.
   - In This demo I have used the Bootstrap Framework and JQuery. 
   
-  - Probably i can develop my own API someday that returns the random Quote but in this demo, I have used https://vanpariyar.github.io/get-new-quote/rendomQuote.json API.
+  - Probably i can develop my own API someday that returns the random Quote but in this demo, I have used https://xanzheus.github.io/get-new-quote/rendomQuote.json API.
   - You can get Qoute Like
   
   
@@ -16,7 +16,7 @@
   
   
 
-##### You can Find This Demo Link Here: https://vanpariyar.github.io/get-new-quote
+##### You can Find This Demo Link Here: https://xanzheus.github.io/randomquote
 
 
 
