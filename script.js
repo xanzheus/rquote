@@ -15,7 +15,7 @@ getNewQuote = () => {
 	}
 	if(flag == 0){
 		$.ajax({
-			url: "https://raw.githubusercontent.com/vanpariyar/get-new-quote/master/rendomQuote.json",               
+			url: "https://raw.githubusercontent.com/xanzheus/xanzheus.github.io/rendomQuote.json",               
 			success: function(result) {
 				flag = 1; 
 				quotes = JSON.parse(result);
